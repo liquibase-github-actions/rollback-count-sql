@@ -6,7 +6,7 @@ Generate the SQL to rollback the specified number of changes
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/rollback-count-sql@v4.25.0
+- uses: liquibase-github-actions/rollback-count-sql@v4.25.1
   with:
     # The root changelog file
     # string
@@ -100,7 +100,7 @@ The liquibase rollback count sql action accepts all valid liquibase global optio
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/rollback-count-sql@v4.25.0
+  - uses: liquibase-github-actions/rollback-count-sql@v4.25.1
     with:
       changelogFile: ""
       count: ""
